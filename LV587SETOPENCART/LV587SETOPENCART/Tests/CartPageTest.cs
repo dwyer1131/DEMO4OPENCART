@@ -64,7 +64,7 @@ namespace LV587SETOPENCART.Tests
                 Thread.Sleep(2000);// for presentation (everything works without it)
                 //Act
                 string act = phones.CartButtonLabelText();
-                string exp = "0 item(s) - $122.00";
+                string exp = "1 item(s) - $122.00";
                 //Assert
                 Assert.AreEqual(exp, act);
 
